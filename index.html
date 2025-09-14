@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Калькулятор</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+    </head>
+    <body>
+        <div class="main">
+            <div class="input">
+                <input type="text" id="display" value="0" readonly>
+            </div>
+
+            <div class="key">
+                <div class="engineer">
+                    <button name="op">ⁿ√</button>
+                    <button name="op">∧</button>
+                    <button class="double-button" name="clear">CE</button>
+                </div>
+
+                <div class="calculate">
+                    <div id="number">
+                        <button name="number">7</button>
+                        <button name="number">8</button>
+                        <button name="number">9</button>
+                        <button name="number">4</button>
+                        <button name="number">5</button>
+                        <button name="number">6</button>
+                        <button name="number">1</button>
+                        <button name="number">2</button>
+                        <button name="number">3</button>
+                        <button class="double-button" name="number">0</button>
+                        <button name="calculate">=</button>
+                    </div>
+
+                    <div class="op">
+                        <button name="op">+</button>
+                        <button name="op">−</button>
+                        <button name="op">×</button>
+                        <button name="op">÷</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
